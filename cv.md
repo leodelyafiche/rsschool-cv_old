@@ -2,6 +2,8 @@
 
 ## **Leonard, Mulyarchik**  
 
+![Avatar](https://i.ibb.co/m0vZFtx/IMG-20191215-172950.jpg) 
+
 ## **Contact info**  
 
  **e-mail:**  leo.mulyarchik@gmail.com  
