@@ -1,0 +1,137 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    margin: 0;
+    font-family: "Verdana", "Arial", sans-serif;
+    font-size: 1.6em;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    background-color: #f44336;
+}
+.header__info {
+    padding: 15px 0;
+}
+
+.header__info-title {
+    margin-bottom: 15px;
+
+    font-size: 4rem;
+    color: white;
+    text-transform: uppercase;
+}
+
+.header__contacts-item {
+    margin-bottom: 40px;
+}
+
+.header__contacts-title {
+    margin-bottom: 5px;
+
+    font-size: 3rem;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.header__contacts-text {
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+
+    transition: text-decoration .2s linear;
+}
+
+
+.header__contacts-text:hover {
+    text-decoration: underline;
+}
+
+.main {
+    padding: 30px 30px 15px 30px;
+
+    background-color: #f5f5f5;
+}
+
+.resume__item {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+
+    border-bottom: 2px dotted #BDBDBD;
+}
+.resume__item-title {
+    margin-bottom: 20px;
+
+    font-size: 3rem;
+    color: #212121;
+    text-transform: uppercase;
+}
+
+.resume__item-text {
+    font-size: 2rem;
+    color: #757575;
+}
+
+.resume__item-link {
+    font-size: 2rem;
+    color: #212121;
+    text-decoration: none;
+
+    transition: color .2s linear;
+}
+
+.resume__item-link:hover {
+    color: black;
+    text-decoration: underline;
+}
+.resume__item-list {
+    margin-bottom: 15px;
+
+    color: #757575;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+
+    background-color: #f44336;
+}
+.footer__link {
+    font-size: 2rem;
+    color: black;
+    text-decoration: none;
+
+    transition: color .2s linear;
+}
+.footer__link:hover {
+    color: black;
+    text-decoration: underline;
+}
